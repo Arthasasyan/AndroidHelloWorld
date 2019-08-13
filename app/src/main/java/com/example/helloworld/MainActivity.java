@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //testing access to new API version
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             getColor(R.color.red);
         }
